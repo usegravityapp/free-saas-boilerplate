@@ -1,0 +1,8 @@
+{
+  "development": {
+    "server_url": "http://localhost:8080"
+  },
+  "production": {
+    "server_url": "http://yourdomain.com"
+  }
+}

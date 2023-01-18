@@ -1,0 +1,44 @@
+{
+  "name": "gravity-free-saas-boilerplate",
+  "plan": "free",
+  "version": "1.0.0",
+  "homepage": "https://github.com/usegravityapp/free-saas-boilerplate",
+  "description": "Free SasS Boilerplate | Node.js • React • Express • Tailwind",
+  "main": "server.js",
+  "engines": {
+    "node": "^18.11.0"
+  },
+  "keywords": [
+    "saas boilerplate",
+    "node.js boilerplate",
+    "express boilerplate",
+    "react boilerplate"
+  ],
+  "author": "Kyle Gawley",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "knex": "^2.4.1",
+    "mysql2": "^3.0.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "setup": "cd client && npm i && cd ../ && npm i && npm run dev",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others \"npm run client\" \"npm run server\""
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "client/",
+      "config/",
+      "server.js",
+      "knexfile.js"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, #root, body {
+
+  height: 100%;
+
+}
+
+@layer base {
+  body {
+
+    @apply text-slate-600;
+
+  }
+  *, *:after, *:before {
+
+    @apply bg-no-repeat;
+
+  }
+  a {
+
+    @apply underline;
+    @apply text-blue-500;
+
+  }
+  p {
+
+    @apply mb-4;
+
+  }
+  li {
+
+    @apply mb-2;
+
+  }
+  code {
+
+    @apply text-sm;
+
+  }
+}
