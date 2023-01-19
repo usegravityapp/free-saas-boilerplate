@@ -13,8 +13,8 @@ and how to install and use the boilerplate.
 This boilerplate uses the model-view-controller (MVC) pattern 
 and is split into two separate applications:
 
-1. Client
-2. Server (API)
+1. Server (API)
+2. Client
 
 The client makes HTTP requests to an API endpoint on
 the server to send or get data. Each endpoint is handled
@@ -61,7 +61,7 @@ The following items are *not* included but are available in the
 - User feedback
 - User onboarding
 - Error and event logging
-- UI Views and component library
+- UI views and component library
 - User impersonation
 - Content Security Policy
 - CORS configuration
@@ -142,7 +142,7 @@ are ignored in package.json:
 
 ### Express
 
-[Express](https://expressjs.com/) is framework for Node.js 
+[Express](https://expressjs.com/) is a framework for Node.js 
 and powers the API. The main configuration is located in the 
 ```server.js``` file. This is where the server starts and also 
 contains a global error handler.
