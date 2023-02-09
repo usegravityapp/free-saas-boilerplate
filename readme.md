@@ -1,6 +1,6 @@
 # Free Full-Stack SaaS Boilerplate
 
-This is a free boilerplate based on the [Gravity web boilerplate](https://usegravity.app)
+This is a free boilerplate based on the [Gravity web boilerplate](https://usegravity.app?utm_source=github&utm_campaign=free_boilerplate)
 
 Use it to build a full-stack web application using React, Tailwind, 
 Node.js and Express.
@@ -47,7 +47,7 @@ SaaS application, not the functionality.
 ### What's Not Included
 
 The following items are *not* included but are available in the 
-[premium version of this boilerplate](https://usegravity.app):
+[premium version of this boilerplate](https://usegravity.app?utm_source=github&utm_campaign=free_boilerplate):
 
 - Authentication
 - Subscription payments
@@ -236,6 +236,6 @@ I have a premium boilerplate for sale, which has all the functionality
 need to launch a SaaS product. I also have a course on how to 
 build a SaaS product from scratch using this boilerplate.
 
-[Get The Full Boilerplate](https://usegravity.app)\
+[Get The Full Boilerplate](https://usegravity.app?utm_source=github&utm_campaign=free_boilerplate)\
 [Get How To Build a SaaS Product From Scratch Course](https://usegravity.app/course)\
 [Watch: How To Build a To-Do List Application](https://www.youtube.com/watch?v=HuVcp7r8HpY)
