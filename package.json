@@ -19,13 +19,13 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "knex": "^2.4.1",
-    "mysql2": "^3.0.1",
+    "knex": "^2.4.2",
+    "mysql2": "^3.2.3",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "concurrently": "^7.6.0",
-    "nodemon": "^2.0.20"
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
   },
   "scripts": {
     "setup": "cd client && npm i && cd ../ && npm i && npm run dev",
