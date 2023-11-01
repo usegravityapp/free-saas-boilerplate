@@ -6,7 +6,8 @@ export default defineConfig ({
 
 	plugins: [react(),jsconfigPaths()],
 	server: {
-		port: 3000
+		port: 3000,
+		open: '/'
 	},
 	preview: {
 		port: 3000
