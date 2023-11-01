@@ -5,7 +5,7 @@
 *
 **********/
 
-import LogoColor from './images/logo-color.svg';
+import LogoColor from '/assets/images/logo-color.svg';
 import Style from './logo.tailwind.js';
 
 export function Logo(props){

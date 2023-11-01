@@ -5,17 +5,20 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FourOhFour } from 'views/404';
 import { View } from 'components/lib';
 
+// routes
+import WelcomeRoutes from 'routes/welcome';
+import AuthRoutes from 'routes/auth';
+
 // tailwind css
 import '../css/output.css';
 
 // import settings with server_url
-const Settings = require('settings.json');
+import Settings from 'settings.json';
 
-// import additional route files here
 const routes = [
 
-  ...require('routes/welcome').default,
-  ...require('routes/auth').default,
+  ...WelcomeRoutes,
+  ...AuthRoutes,
 
 ]
 
