@@ -1,6 +1,6 @@
 # Free Full-Stack SaaS Boilerplate
 
-This is a free boilerplate based on the [Gravity web boilerplate](https://usegravity.app?utm_source=github&utm_campaign=free_boilerplate)
+This is a free boilerplate based on the [Gravity SaaS Boilerplate for Node.js & React](https://usegravity.app?utm_source=github&utm_campaign=free_boilerplate)
 
 Use it to build a full-stack web application using React, Tailwind, 
 Node.js and Express.
